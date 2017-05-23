@@ -41,7 +41,7 @@
                                     <a href="http://localhost/CompanyCalendar/UInterfaces/AdminPanel/pages/editteams/viewteams.php">View Teams</a>
                                 </li>
                                 <li>
-                                    <a href="http://localhost/CompanyCalendar/UInterfaces/AdminPanel/pages/addteams/addteam.php">Assign Teams</a>
+                                    <a href="http://localhost/CompanyCalendar/UInterfaces/AdminPanel/pages/addteams/addteam.php">Add Teams</a>
                                 </li>
                                 <li>
                                     <a href="http://localhost/CompanyCalendar/UInterfaces/AdminPanel/pages/editteams/editteams.php">Edit Teams</a>
