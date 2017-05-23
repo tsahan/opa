@@ -160,7 +160,7 @@ left: calc(54% - 50px);
 		<div class="grad"></div>
 		<div class="header">
 			<!--<div>Company<span>Calendar</span></div>-->
-			 <a="" href="http://localhost/view2"><img src="http://localhost/login/logo.png" alt="Mountain View" style="width:;height:;">
+			 <a="" href="http://localhost/CompanyCalendar"><img src="http://localhost/CompanyCalendar/logo.png" alt="Mountain View" style="width:;height:;">
 			 
 			 
 			 

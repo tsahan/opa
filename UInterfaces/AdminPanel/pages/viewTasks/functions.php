@@ -1,7 +1,7 @@
 <?php
 function get_tasks(){
 	global $db;
-	$query= "SELECT taskID, taskTitle, startDate, dueDate FROM task";
+	$query= "SELECT t.task_id, pt.name, t.startDate, t.dueDate FROM task t, project_tasks pt WHERE pt.id = t.task_id";
 	$res = mysqli_query($db, $query);
 	return mysqli_fetch_all($res, MYSQLI_ASSOC);
 }
@@ -9,7 +9,7 @@ function get_tasks(){
 function get_tasks_json($arr){
 	$data = '';
 	foreach($arr as $item){
-		$data .= '{ "start": "'. $item['startDate'] . '", "end": "' .$item['dueDate'] . '", "title": "' .$item['taskTitle'] . '","color" : "#0EB6A2"}, ';
+		$data .= '{ "start": "'. $item['startDate'] . '", "end": "' .$item['dueDate'] . '", "title": "' .$item['name'] . '","color" : "#0EB6A2"}, ';
 	}
 	$data .='';
 	return $data;
